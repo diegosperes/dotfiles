@@ -3,6 +3,7 @@ set number
 set expandtab
 set autoindent
 set smarttab
+set noswapfile
 set background=dark
 colorscheme solarized
 
