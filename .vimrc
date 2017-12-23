@@ -2,7 +2,7 @@ syntax enable           " Enable syntax highlight
 set number              " Enable line numbers
 set ruler               " Show current line and colunms number
 set expandtab           " Convert tab to space
-set autoindent          " Add identation for previous line in next line
+set autoindent          " Add identation of previous line for next line
 set smarttab            " Insert one extra level of identation in some cases
 set noswapfile          " Prevent vim to create .swp files
 set cursorline          " Enable highlight for current line
