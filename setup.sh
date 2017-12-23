@@ -1,5 +1,7 @@
 export PATHDOTFILES="$PWD"
 
+defaults write NSGlobalDomain KeyRepeat -int 1 # Set the cursor speed to minimum
+
 # Install homebrew 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
