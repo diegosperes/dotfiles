@@ -1,5 +1,14 @@
-set number
 syntax on
+set number
+set expandtab
+set autoindent
+set smarttab
+
+filetype plugin indent on
+autocmd BufEnter *.html set shiftwidth=2 tabstop=2
+autocmd BufEnter *.js set shiftwidth=2 tabstop=2
+autocmd BufEnter *.css set shiftwidth=2 tabstop=2
+autocmd BufEnter *.py set shiftwidth=4 tabstop=4
 
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
