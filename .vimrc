@@ -1,9 +1,14 @@
-syntax enable
-set number
-set expandtab
-set autoindent
-set smarttab
-set noswapfile
+syntax enable           " Enable syntax highlight
+set number              " Enable line numbers
+set ruler               " Show current line and colunms number
+set expandtab           " Convert tab to space
+set autoindent          " Add identation for previous line in next line
+set smarttab            " Insert one extra level of identation in some cases
+set noswapfile          " Prevent vim to create .swp files
+set cursorline          " Enable highlight for current line
+set incsearch           " Show the next match while entering a search
+set ignorecase          " Ignore case sensitivity in search
+set scrolloff=5         " Define the number of lines that you will see above and below the cursor
 set background=dark
 colorscheme solarized
 
