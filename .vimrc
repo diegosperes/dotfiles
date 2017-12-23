@@ -1,8 +1,10 @@
-syntax on
+syntax enable
 set number
 set expandtab
 set autoindent
 set smarttab
+set background=dark
+colorscheme solarized
 
 filetype plugin indent on
 autocmd BufEnter *.html set shiftwidth=2 tabstop=2
