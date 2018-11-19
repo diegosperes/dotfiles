@@ -7,6 +7,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/projects
 source /usr/local/bin/virtualenvwrapper.sh
 
+[ -f $PATHDOTFILES/bash-functions/project ] && . $PATHDOTFILES/bash-functions/project
 [ -f $PATHDOTFILES/bash-functions/ps1-git-status ] && . $PATHDOTFILES/bash-functions/ps1-git-status
 [ -f $PATHDOTFILES/bash-functions/git-completion ] && . $PATHDOTFILES/bash-functions/git-completion
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
