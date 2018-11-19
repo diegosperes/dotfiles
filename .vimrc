@@ -20,12 +20,10 @@ autocmd BufEnter *.py set shiftwidth=4 tabstop=4
 
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
-let g:netrw_browse_split = 4
+let g:netrw_browse_split = 3
+let g:netrw_chgwin = 3
 let g:netrw_altv = 1
-let g:netrw_winsize = 25
+let g:netrw_winsize = 15
 let g:netrw_list_hide= '^\.git\/$,^.*\.pyc$,^__pycache__\/$'
 
-augroup ProjectDrawer
-  autocmd!
-  autocmd VimEnter * :Vexplore
-augroup END
+nnoremap <S-t> :!clear && make tests<CR>
