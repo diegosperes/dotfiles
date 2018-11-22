@@ -9,6 +9,6 @@ brew install bash-completion
 curl -L "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" > "$PATHDOTFILES/bash-functions/git-completion"
 curl -L "https://raw.githubusercontent.com/altercation/solarized/master/vim-colors-solarized/colors/solarized.vim" > "$PATHDOTFILES/.vim/colors/solarized.vim"
 
-ln -s "$PWD/.bash_profile" ~/.bash_profile
-ln -s "$PWD/.vim" ~/.vim
-ln -s "$PWD/.vimrc" ~/.vimrc
+ln -s "$PATHDOTFILES/.vim/" ~/
+ln -s "$PATHDOTFILES/.bash_profile" ~/.bash_profile
+ln -s "$PATHDOTFILES/.vimrc" ~/.vimrc
